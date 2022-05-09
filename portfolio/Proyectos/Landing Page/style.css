@@ -1,0 +1,105 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.banner-wrap{
+    background-image: url(Imagenes/12196186_1158762227485375_647440431478761347_n.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    text-align: center;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+button{
+    background-color: #1A48E3;
+    color: white;
+    padding: 16px 48px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: .3s;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+}
+
+.banner-wrap h1{
+    background-color: rgb(255, 238, 195);
+    color: rgb(228, 120, 19);
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.cards-wrap{
+    width: 70%;
+    margin: 60px auto;
+}
+.pie-cards{
+    box-shadow: 0 0 16;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.pie{
+    box-shadow: 0px 0px 14px rgb(165, 163, 159);
+    border-radius: 4px;
+    padding: 24px;
+    margin: 20px 20px;
+    width: 200px;
+}
+
+.pie h3{
+    text-align: center;
+    
+}
+
+.pie img{
+    width: 200px;
+    align-items: center;
+}
+
+.sorteo-card{
+    width: 80%;
+    margin: 60px auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sorteo{
+    box-shadow: 0px 0px 14px rgb(165, 163, 159);
+    border-radius: 4px;
+    padding: 24px;
+    margin: 20px 20px;
+    width: 500px;
+}
+.sorteo img{
+    width: 500px;
+    align-items: center;
+}
+
+.sorteo-2 img{
+    width: 300px;
+    align-items: right;
+}
+
+h2{
+    text-align: center;
+}
+
+
+
+.banner-end{
+    background-image: url(Imagenes/12196186_1158762227485375_647440431478761347_n.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 0;
+    text-align: center;
+}

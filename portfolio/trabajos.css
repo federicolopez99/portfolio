@@ -1,0 +1,79 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cards-wrap{
+    width: 70%;
+    margin: 60px auto;
+}
+.cards{
+    box-shadow: 0 0 16;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.work{
+    box-shadow: 0px 0px 14px rgb(165, 163, 159);
+    border-radius: 4px;
+    padding: 24px;
+    margin: 20px 20px;
+    width: 200px;
+}
+
+.work h3{
+    text-align: center; 
+}
+
+.work img{
+    width: 100%;
+    align-items: center;
+    position: relative;
+    transition: all 500ms;
+}
+
+.pokemon{
+    color: yellow;
+    text-shadow: 2px 2px 2px blue;
+}
+
+.lewagon{
+    color: red;
+    text-shadow: 2px 2px 5px grey;
+}
+
+.calculator{
+    text-shadow: 2px 2px 5px rgb(85, 84, 84);
+}
+
+img:hover{
+    transform: scale(1.10);
+}
+
+.btn{
+    position: absolute;
+    top: 20px;
+    width: 60px;
+    height: 60px;
+    font-size: 1.5em;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.25),
+    5px 5px 30px rgba(0, 0, 0, 0.25),
+    inset -2px -2px 5px rgba(0, 0, 0, 0.25),
+    inset 2px 2px 5px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+a{
+    font-size: 30px;
+    color: black;
+}
+
+a:after{
+    color:black;
+    font-size: 30px;
+}

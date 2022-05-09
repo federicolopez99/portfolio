@@ -1,0 +1,16 @@
+#grid{
+    width: 400px;
+    flex-wrap: wrap;
+}
+
+h3{
+    font-family: "Helvetica";
+    text-align: center;
+    font-size: 2em;
+    color: yellow;
+    text-shadow: 2px 2px 2px blue;
+}
+
+div{
+    margin: 0 auto;
+}
